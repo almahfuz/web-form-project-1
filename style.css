@@ -1,0 +1,128 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Abel|Abril+Fatface|Changa|Dancing+Script|Dosis|Farsan|Fjalla+One|Holtwood+One+SC|Kumar+One|Lobster|Open+Sans+Condensed:300|Oxygen|Pacifico|Play|Playfair+Display|Yanone+Kaffeesatz');
+/* 
+font-family: 'Holtwood One SC', serif;
+font-family: 'Open Sans Condensed', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Dosis', sans-serif;
+font-family: 'Fjalla One', sans-serif;
+font-family: 'Kumar One', cursive;
+font-family: 'Pacifico', cursive;
+font-family: 'Changa', sans-serif;
+font-family: 'Oxygen', sans-serif;
+font-family: 'Lobster', cursive;
+font-family: 'Yanone Kaffeesatz', sans-serif;
+font-family: 'Abel', sans-serif;
+font-family: 'Abril Fatface', cursive;
+font-family: 'Farsan', cursive;
+font-family: 'Play', sans-serif;
+font-family: 'Dancing Script', cursive; */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #4a4c323d;    
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.clear {
+    clear: both;
+}
+
+.formdesign1 {
+    width: 70%;
+    margin: auto;
+
+}
+
+h1 {
+    font-size: 3em;
+    text-align: center;
+    line-height: 1.5;
+    font-family: cursive;
+    color: rgba(0, 0, 0, 0.6);
+    text-shadow: 5px 5px 5px rgba(255, 255, 255, 0.1);
+}
+
+.formdesign1 .Div1_formdesign {
+    padding-bottom: 9%
+}
+
+.formdesign1 .Div1_formdesign input {
+    display: inline;
+    width: 49%;
+    margin-top: 3%;
+    padding: 15px;
+
+    background-color: #30302f;
+    color: white;
+    font-family: Inconsolata;
+    font-size: 20px;
+    font-family: 'Abel', sans-serif;
+
+    outline: none;
+    border-radius: 5px;
+    border: 2px solid #533E2D;
+    border-bottom: 6px solid #352721;
+    transition: .5s;
+}
+
+.formdesign1 .Div1_formdesign input:focus {
+    background-color: #242331;
+    border-bottom: 6px solid #352721;
+    border-top: 2px solid #DDCA7D;
+}
+
+.Div1_formdesign input:hover {
+    border-top: 2px solid #DDCA7D;
+    color: #DEDAA9;
+
+}
+
+.formdesign1 .Div1_formdesign .button[type="submit"]:hover {
+    border-bottom: 3px solid #74AF96;
+    transition: .5s;
+    cursor: pointer;
+    outline: 0;
+}
+
+.formdesign1 .Div1_formdesign .button {
+    width: 24.5%
+}
+
+
+.footer {
+    padding: 10px;
+    background-color: #0f0800;
+    font-size: 25px;
+    text-align: center;
+    line-height: 1.7;
+    font-family: 'Abel', sans-serif;
+    border-top: 2px solid #74AF96;
+    margin-top: 5%;
+
+}
+
+a,
+a:link,
+a:active,
+a:visited,
+a:hover {
+    color: white;
+    text-decoration: none;
+    transition: .5s;
+}
+
+p {
+    color: white;
+}
+
+a:hover {
+    color: #74AF96;
+}
+
